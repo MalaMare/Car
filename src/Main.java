@@ -1,4 +1,7 @@
 
+import loops.Loops;
+
+
 public class Main {
   
     
@@ -22,22 +25,54 @@ public class Main {
 //        audi.printAttributes();
 //        audi.travel(30);
 //        audi.printAttributes();
+
+
+//        Car noviAuto = new Car("Novi auto", 100, 3, 4, 1);
+//        noviAuto.printAttributes();
+//          
+//        noviAuto.getIn();
+//        noviAuto.getOut();
    
 
-        Car noviAuto = new Car();
-        noviAuto.printAttributes();
+//        Car noviAuto = new Car();
+//        noviAuto.printAttributes();
+//        
+//        noviAuto.getIn(2);
+//        noviAuto.printAttributes();
+//        noviAuto.getOut(8);
+//        noviAuto.printAttributes();
+    
+    
+
+//        int x = 0;
+//        while (x > 0) {
+//            System.out.println(x);
+//            x = x - 1;     //  x--;
+//        }
+//
+//        
+//        do {
+//            System.out.println(x);
+//            x--;
+//        } while(x > 0);
         
-        noviAuto.getIn(2);
-        noviAuto.printAttributes();
-         noviAuto.printAttributes();
-        noviAuto.getOut(8);
-       
-    
-    
-    
+        
+//        for (int i = 0; i < 10; i++) {
+//            System.out.println(i);
+//        }
+ 
+
+//         bez static
+//        Loops loop1 = new Loops();
+//        loop1.testWhileLoop();
+        
+//          Loops.testWhileLoop();
+//          Loops.testForLoop();
+//          Loops.testDoubleForLoop();
+//          Loops.printTable();
+          Loops.printCoordinates();
+          System.out.println("kraj1");
     }
-   
-        
-        
-        
+      
 }
+

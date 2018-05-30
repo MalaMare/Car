@@ -91,13 +91,33 @@ public class Car {
         this.currentFuel = this.currentFuel - distance * this.consumption;
     }
 
+//   public void getIn () {
+//       if (this.curentPassengers < this.maxPassengers)
+//           this.curentPassengers = this.curentPassengers + 1;
+//           //this.currentPassengers++
+//           System.out.println("Neko je usao, broj putnika: " + this.curentPassengers);
+//           
+//         } else {
+//            System.out.println("Auto je pun");   
+//      }
     
     
     
+//  public void getOut () {
+//       if (this.curentPassengers > 0)
+//           this.curentPassengers = this.curentPassengers - 1;
+//           //this.currentPassengers++
+//           System.out.println("Neko je izasao, broj putnika: " + this.curentPassengers);
+//           
+//         } else {
+//            System.out.println("Nema putnika");   
+//      }   
+    
+       
     
     public void getIn(int ulazak) {
               
-        if (this.curentPassengers + ulazak < this.maxPassengers){
+        if (this.curentPassengers + ulazak <= this.maxPassengers){
             this.curentPassengers = this.curentPassengers + ulazak;
             System.out.println("ima jos mesta\n");
         } else {
@@ -111,10 +131,16 @@ public class Car {
             this.curentPassengers = this.curentPassengers - izlazak;
             System.out.println("ima jos mesta");
         } else {
-            System.out.println("nema dovoljno mesta");
+            System.out.println("Nema putnika");
         }
         
-    }   
+    }
+    
+    
+    
+    
+    
+    
     
 
 }
