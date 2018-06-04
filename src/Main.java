@@ -1,6 +1,8 @@
 
 import loops.Loops;
 import person.Person;
+import person.Student;
+import person.Teacher;
 
 
 public class Main {
@@ -82,8 +84,17 @@ public class Main {
                
             osoba.showData();
 
-
-
+            
+            Student studentPetar = new Student ("Petar", "Petrovic", "1122334455667");
+            studentPetar.showData();
+            
+            
+            Student studentMarko = new Student("Marko", "Markovic", "1234554321123", "OAS-123", 2);
+            studentMarko.showData();
+            
+            
+            Teacher teacherFilip = new Teacher("Filip", "Filipovic", "1234123412341", "QA", 10, "male");
+            teacherFilip.showData();
     }
       
 }

@@ -51,6 +51,7 @@ public class Person {
         System.out.println(getName());
         System.out.println(getSurname());
         System.out.println(getJmbg());
+        System.out.println();
     }
     
     
