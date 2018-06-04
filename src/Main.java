@@ -1,5 +1,6 @@
 
 import loops.Loops;
+import person.Person;
 
 
 public class Main {
@@ -70,8 +71,19 @@ public class Main {
 //          Loops.testForLoop();
 //          Loops.testDoubleForLoop();
 //          Loops.printTable();
-          Loops.printCoordinates();
-          System.out.println("kraj1");
+//          Loops.printCoordinates();
+//          System.out.println("kraj1");
+
+            Person osoba= new Person();
+            osoba.showData();
+            
+            osoba.setName("Milomir");
+            osoba.setSurname("Dragovic");
+               
+            osoba.showData();
+
+
+
     }
       
 }
